@@ -56,8 +56,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-default">
       <div class="container">
-        <div class="navbar-header"> <button type="button" class="navbar-toggle"
-
+        <div class="navbar-header"> <button type="button" class="navbar-toggle"
             data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span>
             <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
           <a class="navbar-brand" href="#">Web Server</a>&nbsp; </div>
@@ -70,12 +69,10 @@
       </div>
     </nav>
     <!-- First Container -->
-    <div class="container-fluid bg-1 text-center">
-      <h3 class="margin">Web Server</h3>
-      <img src="Me.jpg" class="img-responsive img-circle margin" style="display:inline"
-
-        alt="Bird" height="350" width="350">
-      <h3>I'm an Shiva Modugu!</h3>
+    <div class="container-fluid bg-1 text-center"> <img src="Nginx.png" class="img-responsive img-circle margin"
+        style="display:inline" alt="Bird" height="350" width="350"> <img src="Apache.png"
+        class="img-responsive" style="display:inline" alt="Bird" height="350" width="350">
+      <h3>Web Servers</h3>
     </div>
     <!-- Second Container -->
     <div class="container-fluid bg-2 text-center">
@@ -83,18 +80,18 @@
       <h4>Web servers are software or hardware that stores and delivers content
         to a web browser. The servers communicate with browsers using Hypertext
         Transfer Protocol (HTTP). Web servers can also support SMTP (Simple Mail
-        Transfer Protocol) and FTP (File Transfer Protocol).&nbsp;</h4>
-    </div>
+        Transfer Protocol) and FTP (File Transfer Protocol). </h4>
+      <a href="https://nginx.org/en/download.html"> Download Nginx </a> | <a href="https://downloads.apache.org/">
+        Download Apache </a> </div>
     <!-- Third Container (Grid) -->
     <div class="container-fluid bg-3 text-center">
-      <h3 class="margin">Examples for a web server</h3>
+      <h3 class="margin">Code examples for a web server</h3>
       <br>
       <div class="row">
         <div class="col-sm-4">
           <h3>Hello World</h3>
           <p>&nbsp;&nbsp;&nbsp; </p>
-          <pre style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; display: block; margin-top: 0px; margin-bottom: 2rem; overflow: auto; border-left: 1px solid rgb(125, 116, 103); border-right: 1px solid rgb(125, 116, 103); border-bottom: 1px solid rgb(125, 116, 103); overflow-wrap: normal; padding: 0px; color: rgb(209, 205, 199); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 26, 27); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><code
-
+          <pre style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; display: block; margin-top: 0px; margin-bottom: 2rem; overflow: auto; border-left: 1px solid rgb(125, 116, 103); border-right: 1px solid rgb(125, 116, 103); border-bottom: 1px solid rgb(125, 116, 103); overflow-wrap: normal; padding: 0px; color: rgb(209, 205, 199); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 26, 27); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><code
 class="language-markup" style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: inherit; direction: ltr; unicode-bidi: bidi-override; color: inherit; overflow-wrap: break-word; word-break: normal; border: 0px; margin: 0px; !important;">&lt;html&gt;
 	&lt;header&gt;<br>		&lt;title&gt;Hello World&lt;/title&gt;<br>	&lt;/header&gt;
 	&lt;body&gt;
@@ -102,27 +99,20 @@ class="language-markup" style="box-sizing: border-box; font-family: var(--bs-fon
 	&lt;/body&gt;
 &lt;/html&gt;</code></pre>
           <div style="text-align: center;">&nbsp; This is an example that
-            displays the words "Hello World" on a website.<img src="Football.jpg"
-
-              class="img-responsive margin" style="width:500px; height: 250px" alt="Image"></div>
+            displays the words "Hello World" on a website.<img src="helloworld.jpg"
+              class="img-responsive margin" style="width: 30%px; height: #0%px;"
+              alt="Image"></div>
         </div>
         <div class="col-sm-4">
           <h3>Hello World Bootstrap</h3>
           <p><br>
           </p>
           <div style="text-align: left;">
-            <pre style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; display: block; margin-top: 0px; margin-bottom: 2rem; overflow: auto; border-left: 1px solid rgb(125, 116, 103); border-right: 1px solid rgb(125, 116, 103); border-bottom: 1px solid rgb(125, 116, 103); overflow-wrap: normal; padding: 0px; color: rgb(209, 205, 199); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 26, 27); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><code
-
-class="language-markup" style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: inherit; direction: ltr; unicode-bidi: bidi-override; color: inherit; overflow-wrap: break-word; word-break: normal; border: 0px; margin: 0px; !important;">&lt;html lang="en"&gt;<br>
-&nbsp;&nbsp;&nbsp; &lt;head&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;Bootstrap Example&lt;/title&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- Bootstrap CSS --&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- Optional JavaScript --&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;script src="https://code.jquery.com/jquery-3.4.1.min.js"&gt;&lt;/script&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"&gt;&lt;/script&gt;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"&gt;&lt;/script&gt;<br>
+            <pre style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; display: block; margin-top: 0px; margin-bottom: 2rem; overflow: auto; border-left: 1px solid rgb(125, 116, 103); border-right: 1px solid rgb(125, 116, 103); border-bottom: 1px solid rgb(125, 116, 103); overflow-wrap: normal; padding: 0px; color: rgb(209, 205, 199); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 26, 27); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><code
+class="language-markup" style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: inherit; direction: ltr; unicode-bidi: bidi-override; color: inherit; overflow-wrap: break-word; word-break: normal; border: 0px; margin: 0px; !important;">&lt;html lang="en"&gt;
+&nbsp;&nbsp;&nbsp; &lt;head&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;title&gt;Bootstrap Example&lt;/title&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;script src="https://code.jquery.com/jquery-3.4.1.min.js"&gt;&lt;/script&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"&gt;&lt;/script&gt;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"&gt;&lt;/script&gt;<br>
 &nbsp;&nbsp;&nbsp; &lt;/head&gt;
 &nbsp;&nbsp;&nbsp; &lt;body&gt;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;h1&gt;Hello World&lt;/h1&gt;
@@ -130,44 +120,46 @@ class="language-markup" style="box-sizing: border-box; font-family: var(--bs-fon
 &lt;/html&gt;
 </code></pre>
             <div style="text-align: center;">This is an example that displays
-              the words "Hello World" but also adds the code needed to use
-              bootstrap.</div>
-          </div>
+              the words "Hello World" but also changes the font and adds the
+              code needed to use bootstrap.</div>
+            <img src="helloworldbootstrap.jpg" class="img-responsive margin" style="width: 30%px; height: #0%px;"
+              alt="Image"> </div>
         </div>
         <div class="col-sm-4">
-          <h3>Hello World Bootstrap</h3>
+          <h3>Message Button</h3>
           <p><br>
           </p>
           <div style="text-align: left;">
-            <pre style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; display: block; margin-top: 0px; margin-bottom: 2rem; overflow: auto; border-left: 1px solid rgb(125, 116, 103); border-right: 1px solid rgb(125, 116, 103); border-bottom: 1px solid rgb(125, 116, 103); overflow-wrap: normal; padding: 0px; color: rgb(209, 205, 199); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 26, 27); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">&lt;title&gt;My Example&lt;/title&gt;
+            <pre style="box-sizing: border-box; font-family: var(--bs-font-monospace); font-size: 0.875em; direction: ltr; unicode-bidi: bidi-override; display: block; margin-top: 0px; margin-bottom: 2rem; overflow: auto; border-left: 1px solid rgb(125, 116, 103); border-right: 1px solid rgb(125, 116, 103); border-bottom: 1px solid rgb(125, 116, 103); overflow-wrap: normal; padding: 0px; color: rgb(209, 205, 199); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(24, 26, 27); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;JavaScript Tutorial Example of JavaScript with HTML form button&lt;/TITLE&gt;
+&lt;SCRIPT LANGUAGE="JavaScript"&gt;
 
-&lt;script&gt;
-document.addEventListener("DOMContentLoaded", function(event) {
+  function showOutput (message) {
+     alert (message);
+   }
 
-    window.setTimeout(function(){
-        document.location.reload(true);
-    }, 3500);    
-
-  document.getElementById("timestamp").innerText = new Date().getTime();  
-  
-});
-&lt;/script&gt;
+&lt;/SCRIPT&gt;
+&lt;/HEAD&gt;
+	&lt;BODY&gt;
+  		&lt;FORM name="myForm"&gt;
+  			&lt;INPUT NAME="textBox" TYPE="text"&gt;
+    			&lt;INPUT NAME="showOut" TYPE="button" VALUE=" Show Me... "
+    			onClick="showOutput(myForm.textBox.value)"&gt;
+    		&lt;/FORM&gt;
+	&lt;/BODY&gt;
+&lt;/HTML&gt;
 </pre> </div>
-          This example shows a button that will refresh the webpage using
-          javascript.
-          <div class="col-sm-4"><br>
-            <img src="Lion.jpg" class="img-responsive margin" style="width:500px; height: 250px"
-
-              alt="Image"> </div>
-        </div>
-        <code style="color: white;"> </code></div>
-      <code style="color: white;">
-        <!-- Footer -->
-        <footer class="container-fluid bg-4 text-center">
-          <p>My GitHub is: <a href="https://github.com/GhostRiderGolden">github.com/GhostRiderGolden</a></p>
-          <p>You can find at - Instagram: ghostridergolden Snapchat:
-            ghostridergold</p>
-        </footer>
-      </code> </div>
+          <div> This example shows a button that will display text from a text
+            box in an alert using java script. </div>
+          <img src="Javascript.jpg" class="img-responsive margin" style="width: 30%px; height: #0%px;"
+            alt="Image"> </div>
+      </div>
+      <footer class="container-fluid bg-4 text-center">
+        <p>My GitHub is: <a href="https://github.com/GhostRiderGolden">github.com/GhostRiderGolden</a></p>
+        <p>You can find at - Instagram: ghostridergolden Snapchat:
+          ghostridergold</p>
+      </footer>
+    </div>
   </body>
 </html>
